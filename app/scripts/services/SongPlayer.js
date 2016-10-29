@@ -174,6 +174,12 @@
          }
       };
       
+      /**
+      * @function setVolume
+      * @desc Set volume of currently playing song
+      * @param {Number} time
+      */
+      
       SongPlayer.setVolume = function(volume) {
          if (currentBuzzObject) {
             currentBuzzObject.setVolume(volume);
